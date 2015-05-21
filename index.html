@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Devin Tourist Sites</title>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="http://js.arcgis.com/3.13/esri/css/esri.css">
+        <link rel="stylesheet" href="css/style.css">
+
+
+        <!-- JQUERY PLUGIN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+
+
+        <!-- FANCYBOX GALLERY PLUGIN -->
+        <script type="text/javascript" src="scripts/bjqs-1.3.min.js"></script>
+        <script type="text/javascript" src="scripts/jquery.mousewheel-3.0.6.pack.js"></script>
+
+        <link rel="stylesheet" href="scripts/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+        <script type="text/javascript" src="scripts/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+        <link rel="stylesheet" href="scripts/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+        <script type="text/javascript" src="scripts/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+        <script type="text/javascript" src="scripts/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+        <link rel="stylesheet" href="scripts/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+        <script type="text/javascript" src="scripts/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+
+        <!-- PAGER PLUGIN -->
+        <script type="text/javascript" src="scripts/quickpager.jquery.js"></script>
+
+
+        <!-- ARCGIS AND MAIN PLUGIN -->
+        <script type="text/javascript" src="scripts/init.js"></script>
+        <script type="text/javascript" src="scripts/maps.js"></script>
+    </head>
+    <body class="claro">
+        <div id="buttonPane" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'top'">
+            <div id="buttonPaneHide" title="Hide Panel"><!-- --></div>
+            <div id="logo">
+                <div class="innerLogo"><img src="images/logo.png" alt="Девин туристически обекти" /></div>
+                <div class="innerText"><span class="rowOne">Devin</span><span class="rowTwo">Tourist Sites</span></div>
+                <div class="cl"><!-- --></div>
+            </div>
+            <div id="buttonPaneOuter">
+                <div class="buttonPaneShell">
+                    <div id="tsankov" class="buttonPaneBtn">Tsankov Kamak</div>
+                    <div id="tsankovInfo" class="buttonPaneInfo">
+                        <div class="buttonPaneInfoInner">
+                            <div class="buttonPaneInfoInner2">
+                                <p>"Tsankov Kamak" is the new tourist zone that arose after the construction of the eponymous lake. The Master Plan includes:</p>
+                                <ul>
+                                    <li type="-">Improving the accessibility of the environment;</li>
+                                    <li type="-">Development of suitable road network;</li>
+                                    <li type="-">Construction of a modern tourism infrastructure.</li>
+                                </ul>
+                                <p>The main proposals for improving the road network in the area of interest are:</p>
+                                <ol type="A">
+                                    <li>Expansion and improvement of the path Mihalkovo- Lyaskovo which is already completed;</li>
+                                    <li>Building a new road from Devin through Lyaskovo to the right bank of the Vacha river;</li>
+                                    <li>Design of panoramic tourist routes north-south, traced mainly on the ridges of hills located on the left and right of the lake, by using existing agricultural and forest roads and trails;</li>
+                                    <li>Design of dead end tourist routes, mainly in the east-west direction through which tourists can reach characteristic panoramic areas, some of which show a breathtaking view of the reservoir;</li>
+                                    <li>Construction of  a forest road along the east bank of the reservoir at a distance of 25-75 meters from the shore.</li>
+                                    <li>Design of recreational waterway along the length of the lake;</li>
+                                </ol>
+                                <p>The design of the resort and tourist infrastructure includes specific sites and routes connecting them as follows:</p>
+                                <ol type="A">
+                                    <li>Tourist Resort "Devin", located next to the town;</li>
+                                    <li>Tourist village "Zabral", located on the southern and western slopes of the eponymous area;</li>
+                                    <li>Panoramic resort "Bachvanitsa", located on the highest terrace, south of Zabral area and below the peak Bachvanitsa with very good overview to the reservoir.</li>
+                                    <li>Visitor Center dedicated to hydro development in the Rhodope Mountains, located below the dam;</li>
+                                    <li>Forest and fishing lodges, shelters and viewpoints;</li>
+                                    <li>Expansion of Stomanevo village with a villa zone, located at an area with good visual contact with the reservoir.</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttonPaneShell">
+                    <div id="devin" class="buttonPaneBtn">Devin</div>
+                    <div id="devinInfo" class="buttonPaneInfo">
+                        <div class="buttonPaneInfoInner">
+                            <div class="buttonPaneInfoInner2">
+                                <p>Master plan of Devin Municipality - Potential for Tourism</p>
+                                <p>Devin Municipality is located in the western Rhodope Mountains and has an area of 575 sq.m. and a population of 12 234 people in 2015. It is part of the district of Smolyan. A major factor in its current and future development is the completed construction of the  "Tsankov Kamak" dam.</p>
+                                <p>The potential for tourism in the municipality is based on:</p>
+                                <ul>
+                                    <li>clean air and mineral water springs suited for different balneological treatments for the body, the skeletal structure in particular;</li>
+                                    <li>rich cultural and historical background - 98 discovered archaeological monuments, part of the "Southern cultural area (via Diagonalis) - Rhodope Mountains";</li>
+                                    <li>unique landscapes - ancient forests, deep rivers, two large dams, many rock formations, caves, waterfalls, etc.;</li>
+                                    <li>three protected sites, two nature reserves and many unique landmarks;</li>
+                                </ul>
+                                <p>In 2014 the municipality has 2011 beds, 715 of which class "A", 793 class "B" and 126 hunting cabins and chalets.</p>
+                                <p>Only in 2013 the municipality had 62 656 reservations.</p>
+                                <p>In the developed Master Plan of the municipality there are 4 tourist zones:</p>
+                                <ol type="I">
+                                    <li>The town of Devin,</li>
+                                    <li>Trigrad,</li>
+                                    <li>old Roman road,</li>
+                                    <li>"Tsankov Kamak" dam</li>
+                                </ol>
+                                <p>They include the nearby villages and buildings with accommodation for the visitors, public roads and tourist routes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttonPaneShell">
+                    <div id="trigrad" class="buttonPaneBtn">Trigrad</div>
+                    <div id="trigradInfo" class="buttonPaneInfo">
+                        <div class="buttonPaneInfoInner">
+                            <div class="buttonPaneInfoInner2">
+                                <p>Two of the "100 Tourist Sites of Bulgaria" are located near the village of Trigrad:</p>
+                                <p>The Dyavolsko garlo cave (Devil's Throat) - situated at 1,8 km north of the village. The cave's entrance resembles a devil's head and down its throat rushes a massive waterfall that from ancient times has captivated imaginations and given birth to numerous legends. The most impressive part of the cave is its 42 meters high underground waterfall. An artificial tunnel leads to the so called Noisy Hall where the waters of Trigrad river drop down through the natural entrance of the cave.</p>
+                                <p>The Trigrad Gorge - a 7 kilometer defile north of the village, located beneath towering marble cliffs cut over millions of years by the Trigrad river. It's west wall reaches 300 meters in height while the east one extends up to 300-3500 meters. Initially, the two walls are 300 meters apart but the gorge narrows to about 100 meters in the northern section.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttonPaneShell">
+                    <div id="rimski" class="buttonPaneBtn">Roman road</div>
+                    <div id="rimskiInfo" class="buttonPaneInfo">
+                        <div class="buttonPaneInfoInner">
+                            <div class="buttonPaneInfoInner2">
+                                <p>Via Militaris or Via Diagonalis was an ancient Roman road, starting from Singidunum (today the Serbian capital Belgrade), passing by Danube coast to Viminacium (mod. Požarevac), through Naissus (mod. Niš), Serdica (mod. Sofia), Philippopolis (mod. Plovdiv), Adrianopolis (mod. Edirne in Turkish Thrace), and reaching Constantinople (mod. Istanbul). This road was connected with Via Egnatia by other roads - the road along river Axios (or Vardar), the Serdica–Thessalonica road along river Strymon (or Struma), and the road Philippopolis–Philippi.</p>
+                                <p>It was built in the 1st century AD. The length from Singidunum to Constantinople was 924 kilometres.</p>
+                                <p>During the first European conquests of Ottoman Turks orta kol (lit. middle arm) was following the Via Militaris.</p>
+                                <p>In May 2010, while work was done on the Pan-European Corridor X in Serbia, well-preserved remains of the road were excavated in Dimitrovgrad, Serbia. The eight-metre wide road was constructed from large blocks of stone and had two lanes.</p>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div id="gislogo">
+                <div class="innerText"><a href="http://www.gispro.bg" target="_blank">Created by</a></div>
+                <div class="innerLogo"><a href="http://www.gispro.bg" target="_blank"><img src="images/gislogo.png" alt="GIS PRO" /></a></div>
+                <div class="cl"><!-- --></div>
+            </div>
+        </div>
+        <div id="mapDiv" style="width:100%; height:100%;absolute" data-dojo-props="region:'center'"></div>
+    </body>
+</html>
